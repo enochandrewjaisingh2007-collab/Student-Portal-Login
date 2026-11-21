@@ -1,0 +1,26 @@
+import os
+import pandas as pd
+import streamlit as st
+st.title()
+username = st.text_input()
+if
+elif
+st.success()
+menu = st.sidebar.selectbox()
+class StudentIntroduction:
+ def __init__()
+st.write
+ def display(self)
+class StudentMarks:
+def get_total(self)
+def get_average(self)
+def check_status(self)
+return
+if
+else
+st.subheader
+if os.path.exists
+comments_df = pd.read_csv()
+ st.dataframe()
+
+
