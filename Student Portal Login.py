@@ -144,8 +144,8 @@ elif page == "About":
     
     create by: Enoch Andrew Jaisingh 
     department: BCA 1styear 
-    Club member: DataScience
-    """)
+    Club member: DataScience  """)
+    
     elif menu == "Contact":
         st.header("Contact")
         st.write("Email: enochandrewjaisingh2007@gmail.com")
