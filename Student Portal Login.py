@@ -1,6 +1,10 @@
 import os
 import pandas as pd
 import streamlit as st
+st.set_page_config(
+    page_title="EduSecure - Student Portal",
+    page_icon="🎓"
+)
 st.title("Student Portal Login")
 username = st.text_input("Enter username: ", key="main_user")
 if username == "@Enoch1234":
