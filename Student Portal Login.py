@@ -112,7 +112,7 @@ elif page == "About":
 
     st.subheader("Secure Student Portal and Academic Information System")
 
-    st.subheader"""
+    st.subheader("""
      What is a Secure Student Portal and Academic Information System?
 
     It is a web-based application developed using Python
@@ -141,11 +141,9 @@ elif page == "About":
     - Python
     - Streamlit
     - Pandas
-    
     create by: Enoch Andrew Jaisingh 
     department: BCA 1styear 
-    Club member: DataScience  """)
-    
+    Club member: DataScience"")  
     elif menu == "Contact":
         st.header("Contact")
         st.write("Email: enochandrewjaisingh2007@gmail.com")
