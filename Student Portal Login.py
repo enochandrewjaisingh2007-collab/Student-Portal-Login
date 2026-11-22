@@ -106,9 +106,50 @@ if username == "@Enoch1234" and password == "Enoch123":
             "Marks": [tamil, english, maths, c_programming, computer_fundamental, vac]
         }, index=["Tamil", "English", "Maths", "C Programming", "Computer Fundamental", "VAC"])
         st.bar_chart(chart_data)
-    elif menu == "About":
-        st.header("About")
-        st.write("Built by Enoch Andrew Jaisingh — BCA 1st Year, Data Science Club.")
+    
+elif page == "About":
+    st.title("About Us")
+
+    st.subheader("Secure Student Portal and Academic Information System")
+
+    st.subheader"""
+     What is a Secure Student Portal and Academic Information System?
+
+    It is a web-based application developed using Python
+    and Streamlit to manage and display student information.
+
+     Why Do We Call It This Name?
+
+    1. Secure: Because it uses password protection to
+    restrict access to student information.
+
+    2.Student Portal: Because students can view their
+    personal details and academic information.
+
+    3.Academic Information System: Because it manages
+    subject marks, calculates total and average marks,
+    checks Pass or Fail results, and displays marks
+    through a bar chart.
+
+     4.Main Purpose
+
+    The main purpose of this project is to provide a
+    simple and organized way to view student details
+    and perform academic mark calculations.
+
+    5.Technologies Used
+    - Python
+    - Streamlit
+    - Pandas
+
+
+
+    
+    create by: Enoch Andrew Jaisingh 
+    department: BCA 1styear 
+    Club member: DataScience
+    """)
+
     elif menu == "Contact":
         st.header("Contact")
         st.write("Email: enochandrewjaisingh2007@gmail.com")
