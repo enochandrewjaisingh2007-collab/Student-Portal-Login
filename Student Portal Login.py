@@ -117,7 +117,7 @@ if username == "@Enoch1234" and password == "Enoch123":
         comments = st.text_input("Leave your comments here:")
         checkbox = st.checkbox("I agree to the terms and conditions.")
         if checkbox:
-            st.write("Thank you for agreeing to the terms and conditions".)
+            st.write("Thank you for agreeing to the terms and conditions.")
 st.write("-" * 40)
 st.subheader("Saved Comments")
 if os.path.exists("comments.csv"):
