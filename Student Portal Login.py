@@ -67,12 +67,8 @@ if username == "@Enoch1234" and password == "Enoch123":
         st.header("Secure Student Portal Verification")
         st.write("Please verify your credentials again to view private student records.")
         sec_username = st.text_input("Enter username: ", key="sec_user")
-        if sec_username == "@Enoch1234":
-            st.write("Username is correct!")
-        elif sec_username != "":
-            st.write("Wrong username! Try again.")
         sec_password = st.text_input("Enter password: ", type="password", key="sec_pass")
-        if sec_username == "@Enoch1234" and sec_password == "Enoch123":
+        if sec_username == "@Enoch1234" and sec_password == "Enoch456":
             st.success("Access Granted to Student Record!")
             st.write("-" * 40)
             S1 = StudentIntroduction(
@@ -121,8 +117,7 @@ if username == "@Enoch1234" and password == "Enoch123":
         comments = st.text_input("Leave your comments here:")
         checkbox = st.checkbox("I agree to the terms and conditions.")
         if checkbox:
-            st.write("Thank you for agreeing to the terms and conditions.")
-        st.write("Leave your feedback here.")
+            st.write("Thank you for agreeing to the terms and conditions".)
 st.write("-" * 40)
 st.subheader("Saved Comments")
 if os.path.exists("comments.csv"):
