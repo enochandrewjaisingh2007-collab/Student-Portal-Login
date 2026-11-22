@@ -66,7 +66,6 @@ if username == "@Enoch1234" and password == "Enoch123":
     elif menu == "Secure Student Portal":
         st.header("Secure Student Portal Verification")
         st.write("Please verify your credentials again to view private student records.")
-        sec_username = st.text_input("Enter username: ", key="sec_user")
         sec_password = st.text_input("Enter password: ", type="password", key="sec_pass")
         if sec_username == "@Enoch1234" and sec_password == "Enoch456":
             st.success("Access Granted to Student Record!")
