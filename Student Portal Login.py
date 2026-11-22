@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 import streamlit as st
-St.header ("Secure Student Portal and Academic Information System ")
+st.header ("Secure Student Portal and Academic Information System ")
 st.title("Student Portal Login")
 username = st.text_input("Enter username: ", key="main_user")
 if username == "@Enoch1234":
